@@ -34,3 +34,47 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# Personal Portfolio – Next.js & Tailwind CSS
+
+This is my personal developer portfolio built using **Next.js (App Router)**,  
+**TypeScript**, **Tailwind CSS**, and **DaisyUI**.
+
+The project showcases my skills, experience, projects, and technical stack in a
+clean, responsive, and theme-aware UI with **Dark mode as default**.
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + DaisyUI
+- **UI Components:** Custom reusable components
+- **Theme:** Dark mode (default) with Light mode toggle
+- **Icons:** SVG / Lucide Icons
+- **Deployment:** GitHub + Vercel
+
+---
+
+## 📂 Folder Structure
+
+```text
+public/
+ └── images/               # Static images & assets
+
+src/
+ └── app/
+     ├── about/            # About section
+     ├── contact/          # Contact details
+     ├── experience/       # Experience cards
+     ├── projects/         # Project showcase
+     ├── techstack/        # Tech stack sections
+     ├── components/       # Reusable UI components
+     ├── layout.tsx        # Root layout
+     └── page.tsx          # Home page
+
+styles/
+ └── globals.css           # Global styles
+
